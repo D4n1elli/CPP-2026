@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+// Made in 22/01/2026
+
 // First time studying about vectors
 // The main difference between an array and a vector
 // is that arrays have fixed sizes, while a vector is
