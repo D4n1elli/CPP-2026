@@ -3,25 +3,16 @@
 // Code made in 04/01/2026. Starting the year's learning with arrays
 
 int main(){
-    //cout and cin (size)
-    std::cout << "\nDigit a determined amount of numbers to know their average\n";
-    int array_size;
-    while (true){
-        std::cout << "Amount of numbers: ";
-        std::cin >> array_size;
-        if(array_size <= 1){std::cout << "Enter a number above 1.\n"; continue;}
-        else {break;}
-    }
+    //array declaration
+    const int array_size = 5;
+    int arr[array_size] = {1, 2, 3, 4, 5};
 
-    // loop to get the indexes and sum them
+    // loop to sum all indexes
     int sum = 0;
-    int numbers[array_size]{};
     for (int i = 0; i < array_size; i++){
-        std::cout << "Number " << i+1 << std::endl;
-        std::cin >> numbers[i];
-        sum += numbers[i];
+        std::cout << arr[i] << std::endl;
+        sum += arr[i];
     }
-
 
     // need to make sum a float because cpp interprets int/int = int.
     float average = (float)sum/array_size;
