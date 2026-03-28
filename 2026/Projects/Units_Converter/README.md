@@ -18,5 +18,5 @@ Then, the program calculates the final result, displays it and it goes back to t
 - Practiced C++ syntax again after not using it for a considerable period of time.
 
 ## Possible improvements
-- Add more types of units such as time
+- Add more types of units such as time (mins, hours), mass (kilograms, pounds) and volume (liters, fl) 
 - Add conversions history
